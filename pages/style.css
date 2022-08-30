@@ -29,7 +29,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #000000;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .header-container-BG {
@@ -63,6 +63,10 @@ h3 {
     letter-spacing: 4px;
     font-size: 22px;
 }
+
+h4 {
+    font-size: 22px;
+}
 .contactme {
     margin-top: 1rem;
     display: flex;
@@ -86,3 +90,46 @@ a:hover {
     background-color: #ffffff
 }
 
+.about{
+    width: 100%;
+    padding: 200px 0px;
+}
+
+.about img{
+    height: auto;
+    width: 450px;
+}
+
+.about-text{
+    width: 550px;
+    font-size: 25px;
+}
+
+.main-about{
+    width: 1350px;
+    max-height: 95%;
+    margin: 50px 112px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text h1{
+    color: #00aeef;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h4{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.about-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
